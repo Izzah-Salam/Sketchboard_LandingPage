@@ -6,7 +6,7 @@ import { RxDimensions } from "react-icons/rx";
 
 const Section = () => {
   return (
-    <div className="grid grid-cols-3 gap-10 mt-20">
+    <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-20">
       <div className="p-10">
         <h1 className="font-bold text-4xl">
           Skateboarding <br /> done right
@@ -23,7 +23,7 @@ const Section = () => {
       <div className="bg-yellow-300 rounded-full">
         <img src={bg} alt="A boy doing skateboard" />
       </div>
-      <div className="mt-10 ml-10">
+      <div className="mt-10 ml-10 md:block hidden">
         <div className="flex items-center space-x-3">
           <div className="bg-yellow-500 p-4 rounded-md">
             <FaWeightScale className="text-2xl font-bold text-white" />

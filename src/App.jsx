@@ -5,7 +5,7 @@ import Brands from "./assets/components/Brands";
 function App() {
   return (
     <>
-      <div className="bg-yellow-50 px-10 py-5">
+      <div className="bg-yellow-50 ">
         <Header />
         <Section />
         <Brands />

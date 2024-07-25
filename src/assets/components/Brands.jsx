@@ -5,7 +5,7 @@ import skate from "../img/skate.jpg";
 import volcom from "../img/volcom.png";
 const Brands = () => {
   return (
-    <div className="flex items-center space-x-20 p-10 mt-5">
+    <div className="lg:flex items-center space-x-20 p-10 mt-5 hidden">
       <div>
         <h1 className="text-xl font-bold">Brands Available</h1>
         <h4 className="text-sm text-gray-800 my-2">Famous Brands</h4>
