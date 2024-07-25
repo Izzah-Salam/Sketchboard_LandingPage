@@ -1,6 +1,11 @@
+import nike from "../img/nike.png";
+import board from "../img/board.png";
+import baker from "../img/baker.png";
+import skate from "../img/skate.jpg";
+import volcom from "../img/volcom.png";
 const Brands = () => {
   return (
-    <div className="flex items-center space-x-5 p-10">
+    <div className="flex items-center space-x-20 p-10 mt-5">
       <div>
         <h1 className="text-xl font-bold">Brands Available</h1>
         <h4 className="text-sm text-gray-800 my-2">Famous Brands</h4>
@@ -9,11 +14,22 @@ const Brands = () => {
           from our website
         </p>
       </div>
-      <div className="flex flex-1">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
+      <div className="flex flex-1 mx-20 justify-between">
+        <div>
+          <img src={nike} alt="" className="w-[80px] h-[50px]" />
+        </div>
+        <div>
+          <img src={board} alt="" className="w-[100px]  h-[50px]" />
+        </div>
+        <div>
+          <img src={baker} alt="" className="w-[80px] h-[50px]" />
+        </div>
+        <div>
+          <img src={volcom} alt="" className="w-[100px] h-[50px]" />
+        </div>
+        <div>
+          <img src={skate} alt="" className="w-[100px] h-[50px]" />
+        </div>
       </div>
     </div>
   );
